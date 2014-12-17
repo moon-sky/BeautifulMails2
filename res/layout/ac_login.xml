@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AutoCompleteTextView
+        android:id="@+id/acTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dip"
+        android:hint="请输入自己的邮箱,这样我才知道怎么联系你哦"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="10sp"
+        android:layout_margin="12dip"
+        android:text="立即进入"/>
+
+</LinearLayout>
